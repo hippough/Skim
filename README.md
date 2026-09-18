@@ -15,14 +15,11 @@ The agent is more likely to open the files it needs and less likely to open the 
 3. In a fresh session, ask it again. Skim runs on its own now that the folder has an index, and ends with what it read and what it opened.
 4. Compare.
 
-Three runs on Sonnet achieved consistent results:
+Three runs each achieved consistent results:
 
-| | without index | with index |
-| --- | --- | --- |
-| articles opened | 2 | 1 |
-| tokens | 72k | 68k |
-
-The difference is the article it didn't open, about 3,500 tokens, which a session pays again on every turn after.
+| | Sonnet, without | Sonnet, with | Fable, without | Fable, with |
+| --- | --- | --- | --- | --- |
+| tokens | 72k | 69k | 63k | 61k |
 
 ## Choices
 
