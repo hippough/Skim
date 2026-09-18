@@ -1,0 +1,12 @@
+{
+  "name": "skim",
+  "owner": { "name": "hippough" },
+  "plugins": [
+    {
+      "name": "skim",
+      "source": "./",
+      "description": "Skim before reading. checkpoint writes a concise summary of every file in a folder; skim has the agent read the summaries before the files.",
+      "version": "0.1.0"
+    }
+  ]
+}
